@@ -5,11 +5,17 @@
   min-height: 90vh;
   gap: 2rem;
   flex-wrap: wrap;
+  max-width: 90%;
 }
 
 .hero-text {
   flex: 1;
   min-width: 280px;
+  color: #7a889e;
+}
+
+.name{
+  font-size: 6rem !important;
 }
 
 .hero .btn{
@@ -61,4 +67,9 @@
 
 .socials a:hover svg {
   opacity: 0.7;
+}
+
+#about {
+  display: block;
+  padding: 4rem 2rem;
 }
